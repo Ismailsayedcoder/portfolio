@@ -54,5 +54,11 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "githubPages": {
+    "enable": true,
+    "repository": "https://github.com/Ismailsayedcoder/my-react-app.git",
+    "branch": "main",
+    "folder": "build"
   }
 }
