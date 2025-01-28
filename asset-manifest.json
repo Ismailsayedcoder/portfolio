@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c3c4ece1.css",
+    "main.js": "/portfolio/static/js/main.4d0a9c19.js",
+    "static/js/453.9157907f.chunk.js": "/portfolio/static/js/453.9157907f.chunk.js",
+    "static/media/Esmail_Sayed_Resume.pdf": "/portfolio/static/media/Esmail_Sayed_Resume.4be4173b07042529fda5.pdf",
+    "static/media/logo.png": "/portfolio/static/media/logo.54903c3b52637e8f9e53.png",
+    "static/media/project6.jpg": "/portfolio/static/media/project6.9a1fad94290808ab1bbb.jpg",
+    "static/media/project3.jpg": "/portfolio/static/media/project3.a6929ed9d456a892fc0f.jpg",
+    "static/media/project4.jpg": "/portfolio/static/media/project4.e09614811272e2bb8b7d.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.c3c4ece1.css.map": "/portfolio/static/css/main.c3c4ece1.css.map",
+    "main.4d0a9c19.js.map": "/portfolio/static/js/main.4d0a9c19.js.map",
+    "453.9157907f.chunk.js.map": "/portfolio/static/js/453.9157907f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3c4ece1.css",
+    "static/js/main.4d0a9c19.js"
+  ]
+}
