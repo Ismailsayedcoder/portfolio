@@ -1,4 +1,23 @@
-:root {
+# Rename all .js files to .jsx in src directory
+find src -name "*.js" -exec bash -c 'mv "$0" "${0%.js}.jsx"' {} \;
+
+# Update Vite configuration
+echo "import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 5173,
+    open: true
+  }
+})" > vite.config.js
+
+# Update package.json scripts if needed
+npm pkg set scripts.dev="vite" scripts.build="vite build" scripts.preview="vite preview"
+
+# Install necessary dependencies
+npm install vite @vitejs/plugin-react --save-dev:root {
   --primary-color: #ff0055;
   --secondary-color: #00ff88;
   --accent-color: #7700ff;
